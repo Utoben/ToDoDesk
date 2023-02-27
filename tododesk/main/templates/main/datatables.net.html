@@ -1,0 +1,1140 @@
+<!--
+ =========================================================
+* Black Dashboard PRO - v1.1.1
+=========================================================
+
+* Product Page: https://themes.getbootstrap.com/product/black-dashboard-pro-premium-bootstrap-4-admin/
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="{% static '/img/apple-icon.png' %}">
+  <link rel="icon" type="image/png" href="{% static '/img/favicon.png' %}">
+  <title>
+    Support Dashboard
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+   <!--<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />-->
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css" />
+  
+  <!-- Nucleo Icons -->
+  <link href="{% static 'css/nucleo-icons.css' %}" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="{% static 'css/black-dashboard.css' %}" rel="stylesheet" />
+  <link href="{% static 'css/black-dashboard.css.map' %}" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="{% static 'demo/demo.css' %}" rel="stylesheet" />
+  <!--     Fonts and icons     -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+</head>
+
+<body class="sidebar-mini ">
+  <div class="wrapper">
+    <div class="navbar-minimize-fixed">
+      <button class="minimize-sidebar btn btn-link btn-just-icon">
+        <i class="tim-icons icon-align-center visible-on-sidebar-regular text-muted"></i>
+        <i class="tim-icons icon-bullet-list-67 visible-on-sidebar-mini text-muted"></i>
+      </button>
+    </div>
+    <div class="sidebar">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red"
+    -->
+      <div class="sidebar-wrapper">
+        <div class="logo">
+          <a href="javascript:void(0)" class="simple-text logo-mini">
+            SP
+          </a>
+          <a href="javascript:void(0)" class="simple-text logo-normal">
+            Support
+          </a>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="../../examples/dashboard.html">
+              <i class="tim-icons icon-chart-pie-36"></i>
+              <p>Панель приборов</p>
+            </a>
+          </li>
+          <li>
+            <a data-toggle="collapse" href="#pagesExamples">
+              <i class="tim-icons icon-image-02"></i>
+              <p>
+                Разделы
+                <b class="caret"></b>
+              </p>
+            </a>
+            <div class="collapse" id="pagesExamples">
+              <ul class="nav">
+                <li>
+                  <a href="../../examples/pages/pricing.html">
+                    <span class="sidebar-mini-icon">P</span>
+                    <span class="sidebar-normal"> Цены </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/pages/rtl.html">
+                    <span class="sidebar-mini-icon">RS</span>
+                    <span class="sidebar-normal"> RTL поддержка </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/pages/timeline.html">
+                    <span class="sidebar-mini-icon">T</span>
+                    <span class="sidebar-normal"> Timeline </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/pages/login.html">
+                    <span class="sidebar-mini-icon">L</span>
+                    <span class="sidebar-normal"> Логин </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/pages/register.html">
+                    <span class="sidebar-mini-icon">R</span>
+                    <span class="sidebar-normal"> Регистрация </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/pages/lock.html">
+                    <span class="sidebar-mini-icon">LS</span>
+                    <span class="sidebar-normal"> Экран блокировки </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/pages/user.html">
+                    <span class="sidebar-mini-icon">UP</span>
+                    <span class="sidebar-normal"> Профиль пользователя </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a data-toggle="collapse" href="#componentsExamples">
+              <i class="tim-icons icon-molecule-40"></i>
+              <p>
+                Компоненты
+                <b class="caret"></b>
+              </p>
+            </a>
+            <div class="collapse" id="componentsExamples">
+              <ul class="nav">
+                <li>
+                  <a data-toggle="collapse" aria-expanded="false" href="#multicollapse">
+                    <span class="sidebar-mini-icon">MLT</span>
+                    <span class="sidebar-normal"> Свернуть несколько уровней
+                      <b class="caret"></b>
+                    </span>
+                  </a>
+                  <div class="collapse" id="multicollapse">
+                    <ul class="nav">
+                      <li>
+                        <a>
+                          <span class="sidebar-mini-icon">E</span>
+                          <span class="sidebar-normal"> Example </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="../../examples/components/buttons.html">
+                    <span class="sidebar-mini-icon">B</span>
+                    <span class="sidebar-normal"> Кнопки </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/components/grid.html">
+                    <span class="sidebar-mini-icon">G</span>
+                    <span class="sidebar-normal"> Сеточная система </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/components/panels.html">
+                    <span class="sidebar-mini-icon">P</span>
+                    <span class="sidebar-normal"> Панели </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/components/sweet-alert.html">
+                    <span class="sidebar-mini-icon">SA</span>
+                    <span class="sidebar-normal"> Sweet Alert </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/components/notifications.html">
+                    <span class="sidebar-mini-icon">N</span>
+                    <span class="sidebar-normal"> Уведомления </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/components/icons.html">
+                    <span class="sidebar-mini-icon">I</span>
+                    <span class="sidebar-normal"> Иконки </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/components/typography.html">
+                    <span class="sidebar-mini-icon">T</span>
+                    <span class="sidebar-normal"> Типография </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a data-toggle="collapse" href="#formsExamples">
+              <i class="tim-icons icon-notes"></i>
+              <p>
+                Формы
+                <b class="caret"></b>
+              </p>
+            </a>
+            <div class="collapse" id="formsExamples">
+              <ul class="nav">
+                <li>
+                  <a href="../../examples/forms/regular.html">
+                    <span class="sidebar-mini-icon">RF</span>
+                    <span class="sidebar-normal"> Обычные формы </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/forms/extended.html">
+                    <span class="sidebar-mini-icon">EF</span>
+                    <span class="sidebar-normal"> Расширенные </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/forms/validation.html">
+                    <span class="sidebar-mini-icon">V</span>
+                    <span class="sidebar-normal"> Формы проверки </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/forms/wizard.html">
+                    <span class="sidebar-mini-icon">W</span>
+                    <span class="sidebar-normal"> Wizard </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="active">
+            <a data-toggle="collapse" href="#tablesExamples" aria-expanded="true">
+              <i class="tim-icons icon-puzzle-10"></i>
+              <p>
+                Таблицы
+                <b class="caret"></b>
+              </p>
+            </a>
+            <div class="collapse show " id="tablesExamples">
+              <ul class="nav">
+                <li>
+                  <a href="../../examples/tables/regular.html">
+                    <span class="sidebar-mini-icon">RT</span>
+                    <span class="sidebar-normal"> Стандартные таблицы </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/tables/extended.html">
+                    <span class="sidebar-mini-icon">ET</span>
+                    <span class="sidebar-normal"> Дополненные таблицы </span>
+                  </a>
+                </li>
+                <li class="active">
+                  <a href="../../examples/tables/datatables.net.html">
+                    <span class="sidebar-mini-icon">DT</span>
+                    <span class="sidebar-normal"> Таблица </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a data-toggle="collapse" href="#mapsExamples">
+              <i class="tim-icons icon-pin"></i>
+              <p>
+                Карты
+                <b class="caret"></b>
+              </p>
+            </a>
+            <div class="collapse" id="mapsExamples">
+              <ul class="nav">
+                <li>
+                  <a href="../../examples/maps/google.html">
+                    <span class="sidebar-mini-icon">GM</span>
+                    <span class="sidebar-normal"> Google Maps </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/maps/fullscreen.html">
+                    <span class="sidebar-mini-icon">FM</span>
+                    <span class="sidebar-normal"> Full Screen Карта </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/maps/vector.html">
+                    <span class="sidebar-mini-icon">VM</span>
+                    <span class="sidebar-normal"> Векторная карта </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../../examples/widgets.html">
+              <i class="tim-icons icon-settings"></i>
+              <p>Виджеты</p>
+            </a>
+          </li>
+          <li>
+            <a href="../../examples/charts.html">
+              <i class="tim-icons icon-chart-bar-32"></i>
+              <p>Чарты</p>
+            </a>
+          </li>
+          <li>
+            <!--<a href="templates/calendar.html">-->
+              <a href="{% url 'calendar'%}">
+              <i class="tim-icons icon-time-alarm"></i>
+              <p>Календарь</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-minimize d-inline">
+              <button class="minimize-sidebar btn btn-link btn-just-icon" rel="tooltip" data-original-title="Sidebar toggle" data-placement="right">
+                <i class="tim-icons icon-align-center visible-on-sidebar-regular"></i>
+                <i class="tim-icons icon-bullet-list-67 visible-on-sidebar-mini"></i>
+              </button>
+            </div>
+            <div class="navbar-toggle d-inline">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand" href="javascript:void(0)">Support</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto">
+              <li class="search-bar input-group">
+                <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal"><i class="tim-icons icon-zoom-split"></i>
+                  <span class="d-lg-none d-md-block">Поиск</span>
+                </button>
+              </li>
+              <li class="dropdown nav-item">
+                <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <div class="notification d-none d-lg-block d-xl-block"></div>
+                  <i class="tim-icons icon-sound-wave"></i>
+                  <p class="d-lg-none">
+                    Уведомления
+                  </p>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
+                  <li class="nav-link">
+                    <a href="#" class="nav-item dropdown-item">Mike John ответил на ваш email</a>
+                  </li>
+                  <li class="nav-link">
+                    <a href="javascript:void(0)" class="nav-item dropdown-item">Вам назначено уже больше 5 задач</a>
+                  </li>
+                  <li class="nav-link">
+                    <a href="javascript:void(0)" class="nav-item dropdown-item">Ваш друг Michael is in town</a>
+                  </li>
+                  <li class="nav-link">
+                    <a href="javascript:void(0)" class="nav-item dropdown-item">Другие Уведомления</a>
+                  </li>
+                  <li class="nav-link">
+                    <a href="javascript:void(0)" class="nav-item dropdown-item">Прочее</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown nav-item">
+                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <div class="photo">
+                    <img src="{% static 'img/mike.jpg' %}" alt="Profile Photo">
+                  </div>
+                  <b class="caret d-none d-lg-block d-xl-block"></b>
+                  <p class="d-lg-none">
+                    Log out
+                  </p>
+                </a>
+                <ul class="dropdown-menu dropdown-navbar">
+                  <li class="nav-link">
+                    <a href="javascript:void(0)" class="nav-item dropdown-item">Профиль</a>
+                  </li>
+                  <li class="nav-link">
+                    <a href="javascript:void(0)" class="nav-item dropdown-item">Настройки</a>
+                  </li>
+                  <li class="dropdown-divider"></li>
+                  <li class="nav-link">
+                    <a href="javascript:void(0)" class="nav-item dropdown-item">Log out</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="separator d-lg-none"></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="modal modal-search fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <i class="tim-icons icon-simple-remove"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="col-md-8 ml-auto mr-auto">
+          <h2 class="text-center" style="font-family: 'Ubuntu', sans-serif;">Таблица</h2>
+          <p class="text-center" style="font-family: 'Ubuntu', sans-serif;"> 
+            Здесь представлены списки задач по быстрому старту
+          </p>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="toolbar">
+                  <!--        Here you can write extra buttons/actions for the toolbar              -->
+                </div>
+                <table id="datatable" class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>Номер</th>
+                      <th>Задача</th>
+                      <th>Комментарии</th>
+                      <th>Дата постановки</th>
+                      <th>Инженер</th>
+                      <th>Срок реализации</th>
+                      <th>Статус</th>
+                      <!--<th class="sorting_desc_disabled sorting_asc_disabled text-right">Действия</th>-->
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>4</td>
+                      <td>Занесение реквизитов собственной компании</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Создание организационной структуры компании внутри Битрикс24 по предоставленным спискам подразделений, назначение руководителей, настройка прав групп пользователей</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Приглашение сотрудников на портал (до 6 сотрудников, если список общий список не предоставлен) выполняется единомоментно, в соответствии с предоставленным списком личных электронных почт сотрудников</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Удаленная установка (через Anydesk) десктопной версии Битрикс24 на компьютер руководителя или любой другойкомпьютер по выбору Заказчика</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Создание облачного портала Битрикс24 (на свободное доменное имя, если портала еще нет, доменное имя согласовывается с Заказчиком)</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>Оптимизация внешнего вида карточки лида, контакта, сделки (остаются только необходимые поля)</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>Настройка типовых фильтров лидов, сделок, дел (типовое представление)</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>Настройка стадий лидов и сделок, предварительно согласовывается с Заказчиком</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>Импорт лидов из файла .CSV, .XLSX. Шаблон файла, при необходимости, предоставляем Заказчику</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>11</td>
+                      <td>Импорт контактов из файла .CSV, .XLSX. Шаблон файла предоставляем Заказчику</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>12</td>
+                      <td>Импорт сделок из файла .CSV, .XLSX. Шаблон файла предоставляем Заказчику</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>13</td>
+                      <td>Импорт компаний из файла .CSV, .XLSX. Шаблон файла предоставляем Заказчику</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>14</td>
+                      <td>Импорт товаров из файла .CSV, .XLSX. Шаблон файла предоставляем Заказчику</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>Подключение чата бесплатной партнерской поддержки после создания портала Контроль входящих заявок и общение с клиентам</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>16</td>
+                      <td>Оформление внешнего вида портала: добавление логотипа компании, фирменные цвета в стадиях лидов и сделок, фирменный бэкграунд портала </td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>17</td>
+                      <td>Настройка рабочего времени компании</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>18</td>
+                      <td>Согласование и настройка автоматических сообщений на обращения клиента (первое обращение, не рабочее время, завершение диалога и т.д.)</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19</td>
+                      <td>Настройка ролей для приглашенных пользователей, назначение ролей сотрудникам или отделам в соответствии с необходимым функционалом внутри CRM системы</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> 
+                        <select>
+                        <option>Новая задача</option>
+                        <option>Требуется брифинг</option>
+                        <option>В работе</option>
+                        <option>Телефония</option>
+                        <option>Внутренняя приемка</option>
+                        <option>Сдача заказчику</option>
+                        <option>Обучение</option>
+                        <option>Акты выполненых работ</option>
+                        <option>Готово</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Установка решения Медицина.Ready из маркетплейса</td>
+                      <td> </td>
+                      <td>01.03.2023</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <th>Номер</th>
+                      <th>Задача</th>
+                      <th>Комментарии</th>
+                      <th>Дата постановки</th>
+                      <th>Инженер</th>
+                      <th>Срок реализации</th>
+                      <th>Статус</th>
+                      <!--<th class="disabled-sorting text-right">Действия</th>-->
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+              <!-- end content-->
+            </div>
+            <!--  end card  -->
+          </div>
+          <!-- end col-md-12 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="javascript:void(0)" class="nav-link">
+                
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="javascript:void(0)" class="nav-link">
+                О нас
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="javascript:void(0)" class="nav-link">
+                Блог
+              </a>
+            </li>
+          </ul>
+          <div class="copyright">
+            ©
+            <script>
+              document.write(new Date().getFullYear())
+            </script> made with <i class="tim-icons icon-heart-2"></i> 
+            <a href="javascript:void(0)" target="_blank"></a> for a better web.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <div class="fixed-plugin">
+    <div class="dropdown show-dropdown">
+      <a href="#" data-toggle="dropdown">
+        <i class="fa fa-cog fa-2x"> </i>
+      </a>
+      <ul class="dropdown-menu">
+        <li class="header-title"> Настройки боковой панели</li>
+        <li class="adjustments-line">
+          <a href="javascript:void(0)" class="switch-trigger background-color">
+            <div class="badge-colors text-center">
+              <span class="badge filter badge-primary active" data-color="primary"></span>
+              <span class="badge filter badge-info" data-color="blue"></span>
+              <span class="badge filter badge-success" data-color="green"></span>
+              <span class="badge filter badge-warning" data-color="orange"></span>
+              <span class="badge filter badge-danger" data-color="red"></span>
+            </div>
+            <div class="clearfix"></div>
+          </a>
+        </li>
+        <li class="header-title">
+          Панель Mini
+        </li>
+        <li class="adjustments-line">
+          <div class="togglebutton switch-sidebar-mini">
+            <span class="label-switch">OFF</span>
+            <input type="checkbox" name="checkbox" checked class="bootstrap-switch" data-on-label="" data-off-label="" />
+            <span class="label-switch label-right">ON</span>
+          </div>
+          <div class="togglebutton switch-change-color mt-3">
+            <span class="label-switch">LIGHT MODE</span>
+            <input type="checkbox" name="checkbox" checked class="bootstrap-switch" data-on-label="" data-off-label="" />
+            <span class="label-switch label-right">DARK MODE</span>
+          </div>
+        </li>
+        <!--<li class="button-container mt-4">
+          <a href="../../docs/1.0/getting-started/introduction.html" class="btn btn-default btn-block btn-round">
+            Documentation
+          </a>
+        </li>-->
+        <li class="header-title"></li>
+        <!--<li class="button-container text-center">
+          <button id="twitter" class="btn btn-round btn-info"><i class="fab fa-twitter"></i> &middot; 45</button>
+          <button id="facebook" class="btn btn-round btn-info"><i class="fab fa-facebook-f"></i> &middot; 50</button>
+          <br>
+          <br>
+          <a class="github-button" href="https://github.com/creativetimofficial/ct-black-dashboard-pro" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+        </li>-->
+      </ul>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="{% static 'js/core/jquery.min.js' %}"></script>
+  <script src="{% static 'js/core/popper.min.js' %}"></script>
+  <script src="{% static 'js/core/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/plugins/perfect-scrollbar.jquery.min.js' %}"></script>
+  <script src="{% static 'js/plugins/moment.min.js' %}"></script>
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="{% static 'js/plugins/bootstrap-switch.js' %}"></script>
+  <!--  Plugin for Sweet Alert -->
+  <script src="{% static 'js/plugins/sweetalert2.min.js' %}"></script>
+  <!--  Plugin for Sorting Tables -->
+  <script src="{% static 'js/plugins/jquery.tablesorter.js' %}"></script>
+  <!-- Forms Validations Plugin -->
+  <script src="{% static 'js/plugins/jquery.validate.min.js' %}"></script>
+  <!--  Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+  <script src="{% static 'js/plugins/jquery.bootstrap-wizard.js' %}"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="{% static 'js/plugins/bootstrap-selectpicker.js' %}"></script>
+  <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+  <script src="{% static 'js/plugins/bootstrap-datetimepicker.js' %}"></script>
+  <!--  DataTables.net Plugin, full documentation here: https://datatables.net/    -->
+  <script src="{% static 'js/plugins/jquery.dataTables.min.js' %}"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="{% static 'js/plugins/bootstrap-tagsinput.js' %}"></script>
+  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="{% static 'js/plugins/jasny-bootstrap.min.js' %}"></script>
+  <!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
+  <script src="{% static 'js/plugins/fullcalendar/fullcalendar.min.js' %}"></script>
+  <script src="{% static 'js/plugins/fullcalendar/daygrid.min.js' %}"></script>
+  <script src="{% static 'js/plugins/fullcalendar/timegrid.min.js' %}"></script>
+  <script src="{% static 'js/plugins/fullcalendar/interaction.min.js' %}"></script>
+  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
+  <script src="{% static 'js/plugins/jquery-jvectormap.js' %}"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="{% static 'js/plugins/nouislider.min.js' %}"></script>
+  <!--  Google Maps Plugin    -->
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="{% static 'js/plugins/chartjs.min.js' %}"></script>
+  <!--  Notifications Plugin    -->
+  <script src="{% static 'js/plugins/bootstrap-notify.js' %}"></script>
+  <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="{% static 'js/black-dashboard.min.js' %}"></script>
+  <!-- Black Dashboard DEMO methods, don't include it in your project! -->
+  <script src="{% static 'demo/demo.js' %}"></script>
+  <script>
+    $(document).ready(function() {
+      $().ready(function() {
+        $sidebar = $('.sidebar');
+        $navbar = $('.navbar');
+        $main_panel = $('.main-panel');
+
+        $full_page = $('.full-page');
+
+        $sidebar_responsive = $('body > .navbar-collapse');
+        sidebar_mini_active = true;
+        white_color = false;
+
+        window_width = $(window).width();
+
+        fixed_plugin_open = $('.sidebar .sidebar-wrapper .nav li.active a p').html();
+
+
+
+        $('.fixed-plugin a').click(function(event) {
+          if ($(this).hasClass('switch-trigger')) {
+            if (event.stopPropagation) {
+              event.stopPropagation();
+            } else if (window.event) {
+              window.event.cancelBubble = true;
+            }
+          }
+        });
+
+        $('.fixed-plugin .background-color span').click(function() {
+          $(this).siblings().removeClass('active');
+          $(this).addClass('active');
+
+          var new_color = $(this).data('color');
+
+          if ($sidebar.length != 0) {
+            $sidebar.attr('data', new_color);
+          }
+
+          if ($main_panel.length != 0) {
+            $main_panel.attr('data', new_color);
+          }
+
+          if ($full_page.length != 0) {
+            $full_page.attr('filter-color', new_color);
+          }
+
+          if ($sidebar_responsive.length != 0) {
+            $sidebar_responsive.attr('data', new_color);
+          }
+        });
+
+        $('.switch-sidebar-mini input').on("switchChange.bootstrapSwitch", function() {
+          var $btn = $(this);
+
+          if (sidebar_mini_active == true) {
+            $('body').removeClass('sidebar-mini');
+            sidebar_mini_active = false;
+            blackDashboard.showSidebarMessage('Sidebar mini deactivated...');
+          } else {
+            $('body').addClass('sidebar-mini');
+            sidebar_mini_active = true;
+            blackDashboard.showSidebarMessage('Sidebar mini activated...');
+          }
+
+          // we simulate the window Resize so the charts will get updated in realtime.
+          var simulateWindowResize = setInterval(function() {
+            window.dispatchEvent(new Event('resize'));
+          }, 180);
+
+          // we stop the simulation of Window Resize after the animations are completed
+          setTimeout(function() {
+            clearInterval(simulateWindowResize);
+          }, 1000);
+        });
+
+        $('.switch-change-color input').on("switchChange.bootstrapSwitch", function() {
+          var $btn = $(this);
+
+          if (white_color == true) {
+
+            $('body').addClass('change-background');
+            setTimeout(function() {
+              $('body').removeClass('change-background');
+              $('body').removeClass('white-content');
+            }, 900);
+            white_color = false;
+          } else {
+
+            $('body').addClass('change-background');
+            setTimeout(function() {
+              $('body').removeClass('change-background');
+              $('body').addClass('white-content');
+            }, 900);
+
+            white_color = true;
+          }
+
+
+        });
+
+        $('.light-badge').click(function() {
+          $('body').addClass('white-content');
+        });
+
+        $('.dark-badge').click(function() {
+          $('body').removeClass('white-content');
+        });
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('#datatable').DataTable({
+        "pagingType": "full_numbers",
+        "lengthMenu": [
+          [10, 25, 50, -1],
+          [10, 25, 50, "All"]
+        ],
+        responsive: true,
+        language: {
+          search: "_INPUT_",
+          searchPlaceholder: "Search records",
+        }
+
+      });
+
+      var table = $('#datatable').DataTable();
+
+      // Edit record
+      table.on('click', '.edit', function() {
+        $tr = $(this).closest('tr');
+        if ($($tr).hasClass('child')) {
+          $tr = $tr.prev('.parent');
+        }
+
+        var data = table.row($tr).data();
+        alert('You press on Row: ' + data[0] + ' ' + data[1] + ' ' + data[2] + '\'s row.');
+      });
+
+      // Delete a record
+      table.on('click', '.remove', function(e) {
+        $tr = $(this).closest('tr');
+        if ($($tr).hasClass('child')) {
+          $tr = $tr.prev('.parent');
+        }
+        table.row($tr).remove().draw();
+        e.preventDefault();
+      });
+
+      //Like record
+      table.on('click', '.like', function() {
+        alert('You clicked on Like button');
+      });
+    });
+  </script>
+</body>
+
+</html>
